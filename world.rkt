@@ -27,8 +27,8 @@
 (define default-pagetree "index.ptree")
 (define pagetree-root-node 'pagetree-root)
 
-(define command-marker #\◊)
-(define template-command-marker #\∂)
+(define command-marker #\!@)
+(define template-command-marker #\!#)
 
 (define default-template-prefix "template")
 (define fallback-template-prefix "fallback")

@@ -24,12 +24,12 @@ sudo easy_install --upgrade Pygments
 
 Sample usage in test.html.pm:
 
-◊(require pollen/highlight)
-◊(make-highlight-css)
+!@(require pollen/highlight)
+!@(make-highlight-css)
 
 ; specify language in square brackets
 ; put code in curly brackets
-◊highlight['python]{ 
+!@highlight['python]{ 
 for x in range(10):
     print x
 if zero is False:
